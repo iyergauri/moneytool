@@ -34,3 +34,5 @@ for name, cost in lst.items():
 	lst[name] /= 100
 
 # print(lst)
+df = pd.read_json('log.json', lines=True)
+print(df)
